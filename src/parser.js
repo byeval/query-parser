@@ -19,8 +19,8 @@ export default function parser(url) {
     if (isNumber(val)) {
       val = Number(val)
     }
-    if(isBoolean(val)){
-      val = Boolean(val)
+    if (isBoolean(val)) {
+      val = val === 'true'
     }
     if (!ret[key]) {
       ret[key] = val
@@ -42,8 +42,9 @@ function tryDecodeURIComponent(value) {
 }
 
 function isNumber(obj) {
-  return !isNaN(parseFloat(obj))
+  return /^-?[\d.]+(?:e-?\d+)?$/.test(obj)
 }
+
 
 function isBoolean(obj) {
   return /true|false/.test(obj)

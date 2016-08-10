@@ -1,1 +1,1 @@
-export  { parser as default } from 'src/'
+export  { parser as default } from './src/parser'

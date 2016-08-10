@@ -1,5 +1,5 @@
 {
-  "name": "query-parser",
+  "name": "smart-query-parser",
   "version": "0.0.1",
   "description": "Just another query parser write in ES6.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/xuhong/query-parser/issues"
   },
-  "homepage": "https://github.com/xuhong/query-parser#readme"
+  "homepage": "https://github.com/xuhong/query-parser#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "^6.11.6"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
 }
