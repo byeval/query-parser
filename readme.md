@@ -1,4 +1,5 @@
 # query-parser
+![](https://travis-ci.org/xuhong/query-parser.svg?branch=master)
 A smarter query string parser that will convert value in right format(support `number`, `boolean` and `array`), write in ES6.
 
 ## Install
