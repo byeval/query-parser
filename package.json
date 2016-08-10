@@ -1,0 +1,26 @@
+{
+  "name": "query-parser",
+  "version": "0.0.1",
+  "description": "Just another query parser write in ES6.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuhong/query-parser.git"
+  },
+  "keywords": [
+    "query",
+    "parser"
+  ],
+  "author": "xuhong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuhong/query-parser/issues"
+  },
+  "homepage": "https://github.com/xuhong/query-parser#readme"
+}
