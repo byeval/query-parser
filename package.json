@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,11 @@
     "require": [
       "babel-register"
     ]
+  },
+  "bin": {
+    "parser": "bin/parser.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
   }
 }
