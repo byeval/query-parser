@@ -12,7 +12,7 @@ npm install smart-query-parser
 
 ## Usage
 ```
-import { parser } from 'smart-query-parser'
+import parser from 'smart-query-parser'
 
 const link = 'https://google.com/search?q=hello+world&a=1&a=2'
 let obj = parser(link)
